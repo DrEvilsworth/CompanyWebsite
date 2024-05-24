@@ -1,5 +1,5 @@
 import streamlit as st
-import pandas
+import pandas as pd
 
 st.set_page_config(layout="wide")
 
@@ -9,7 +9,7 @@ st.subheader("Our Team")
 
 
 
-df = pandas.read_csv('files/data.csv')
+df = pd.read_csv('files/data.csv')
 
 
 col1, col2, col3 = st.columns(3)
